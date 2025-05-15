@@ -32,13 +32,13 @@ This project is a real-time retail sales analytics dashboard built using **Pytho
 ---
 
 ## 🗂️ Project Structure
-
-```bash
 Realtime_Sales_Analytics/
 ├── dashboard.py                  # Streamlit dashboard app
-├── realtime_sales_analytics.py  # Backend test script with ClickHouse queries
+├── realtime_sales_analytics.py  # Backend logic with ClickHouse queries
 ├── requirements.txt             # Python dependencies
-├── README.md                    # Project overview & usage
-├── .gitignore                   # Files to ignore in Git
-└── assets/
-    └── dashboard_preview.png    # Screenshot of dashboard
+├── README.md                    # Project overview & usage guide
+├── .gitignore                   # Files/directories to be ignored by Git
+└── assets/                      # Asset files (images for previews)
+    ├── Dashboard-preview-1.png
+    ├── Dashboard-preview-2.png
+    └── Dashboard-preview-3.png
