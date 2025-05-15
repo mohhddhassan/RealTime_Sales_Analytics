@@ -32,7 +32,7 @@ This project is a real-time retail sales analytics dashboard built using **Pytho
 ---
 
 ## 🗂️ Project Structure
-''' bash
+``` bash
 Realtime_Sales_Analytics/
 ├── dashboard.py                  # Streamlit dashboard app
 ├── realtime_sales_analytics.py  # Backend logic with ClickHouse queries
