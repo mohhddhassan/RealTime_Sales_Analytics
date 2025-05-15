@@ -1,0 +1,47 @@
+# 📊 Realtime Sales Analytics Dashboard
+
+This project is a real-time retail sales analytics dashboard built using **Python**, **ClickHouse**, and **Streamlit**. It provides interactive insights into sales data including KPIs, revenue by category, top products, and daily trends.
+
+### 🔍 Dashboard Previews
+
+<p float="left">
+  <img src="assets/Dashboard_preview_1.png" width="32%" />
+  <img src="assets/Dashboard_preview_2.png" width="32%" />
+  <img src="assets/Dashboard_preview_3.png" width="32%" />
+</p>
+
+
+---
+
+## 🚀 Features
+
+- 📅 Date range filter with dynamic query support
+- 📈 Revenue and quantity KPIs
+- 💰 Revenue breakdown by category
+- 🏆 Top 5 products by revenue
+- 📊 Daily sales trend chart
+- 📷 Slanted axis labels for improved readability
+- ⚡ Live updates with ClickHouse backend
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit, Altair
+- **Backend:** ClickHouse (fast OLAP database)
+- **Language:** Python 3
+- **Data Processing:** Pandas
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+Realtime_Sales_Analytics/
+├── dashboard.py                  # Streamlit dashboard app
+├── realtime_sales_analytics.py  # Backend test script with ClickHouse queries
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project overview & usage
+├── .gitignore                   # Files to ignore in Git
+└── assets/
+    └── dashboard_preview.png    # Screenshot of dashboard
