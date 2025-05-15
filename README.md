@@ -4,12 +4,9 @@ This project is a real-time retail sales analytics dashboard built using **Pytho
 
 ### 🔍 Dashboard Previews
 
-<p float="left">
-  <img src="assets/Dashboard_preview_1.png" width="32%" />
-  <img src="assets/Dashboard_preview_2.png" width="32%" />
-  <img src="assets/Dashboard_preview_3.png" width="32%" />
-</p>
-
+- [Dashboard-preview-1](assets/Dashboard-preview-1.png)
+- [Dashboard-preview-2](assets/Dashboard-preview-2.png)
+- [Dashboard-preview-3](assets/Dashboard-preview-3.png)
 
 ---
 
