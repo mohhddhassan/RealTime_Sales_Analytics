@@ -74,10 +74,15 @@ df_category = pd.DataFrame(category_data, columns=[
 
 st.markdown("### 💰 Total Revenue by Category")
 chart_category = alt.Chart(df_category).mark_bar().encode(
-    x=alt.X('Category:N', axis=alt.Axis(labelAngle=-45)),
-    y='Total Revenue:Q',
+    x=alt.X('Category:N', axis=alt.Axis(labelAngle=-45,
+            labelFontSize=14, titleFontSize=16)),  # Increased font sizes
+    y=alt.Y('Total Revenue:Q', axis=alt.Axis(
+        labelFontSize=14, titleFontSize=16)),
     tooltip=['Category', 'Total Revenue']
-).properties(width=600, height=400)
+).properties(width=600, height=400).configure_axis(
+    titleFontSize=16,
+    labelFontSize=14
+)
 st.altair_chart(chart_category, use_container_width=True)
 
 # Top products by revenue
@@ -95,10 +100,14 @@ df_top_products = pd.DataFrame(
 
 st.markdown("### 🏆 Top 5 Products by Revenue")
 chart_products = alt.Chart(df_top_products).mark_bar().encode(
-    x=alt.X('Product:N', axis=alt.Axis(labelAngle=-45)),
-    y='Revenue:Q',
+    x=alt.X('Product:N', axis=alt.Axis(labelAngle=-45,
+            labelFontSize=14, titleFontSize=16)),  # Increased font sizes
+    y=alt.Y('Revenue:Q', axis=alt.Axis(labelFontSize=14, titleFontSize=16)),
     tooltip=['Product', 'Revenue']
-).properties(width=600, height=400)
+).properties(width=600, height=400).configure_axis(
+    titleFontSize=16,
+    labelFontSize=14
+)
 st.altair_chart(chart_products, use_container_width=True)
 
 # Daily sales trend
